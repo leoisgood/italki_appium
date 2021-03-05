@@ -1,0 +1,22 @@
+{
+  "f279da8e3968f295c69b4317306fae13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e84c9a8e905a8b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20440ms.",
+      "time" : {
+        "start" : 1614609002498,
+        "stop" : 1614609002498,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "uid" : "a09087d2f526c93a",
+  "name" : "[case01] 验证app能否正常登录",
+  "fullName" : "test_cases.test_italki_login.test_account_operation.TestAdd#test_login",
+  "historyId" : "f279da8e3968f295c69b4317306fae13",
+  "time" : {
+    "start" : 1614609513326,
+    "stop" : 1614609521676,
+    "duration" : 8350
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '你好 stp curry' == '你好 lll'\n  - 你好 lll\n  + 你好 stp curry",
+  "statusTrace" : "self = <test_cases.test_italki_login.test_account_operation.TestAdd object at 0x000001E3C342CA00>\nset_up = <appium.webdriver.webdriver.WebDriver (session=\"1d4c8de0-d375-4797-9002-366889afb1c5\")>\ntear_down = <appium.webdriver.webdriver.WebDriver (session=\"1d4c8de0-d375-4797-9002-366889afb1c5\")>\n\n    @allure.story('登陆操作')\n    @allure.title('[case01] 验证app能否正常登录')\n    def test_login(self, set_up, tear_down):\n        with allure.step('1、启动italki'):\n            driver = set_up  # 使用了当前目录下的conftest文件里的fixture\n            driver.implicitly_wait(5)\n        with allure.step('2、登陆操作'):\n            driver.find_element_by_xpath(\n                '//android.widget.TextView[@resource-id=\"com.italki.app:id/tv_have_account\"]').click()\n            driver.find_element_by_xpath('//android.widget.LinearLayout[@content-desc=\"电子邮箱\"]').click()\n            driver.find_element_by_xpath(\n                '//android.widget.EditText[@resource-id=\"com.italki.app:id/et_email\"]').send_keys('18217116148@126.com')\n            # driver.find_element_by_xpath('//android.widget.EditText[@resource-id=\"com.italki.app:id/et_email\"]').send_keys(params_setting_list[0])\n            driver.find_element_by_xpath(\n                '//android.widget.EditText[@resource-id=\"com.italki.app:id/et_pwd\"]').send_keys('123456')\n            driver.find_element_by_xpath('//android.widget.Button[@resource-id=\"com.italki.app:id/btn_submit\"]').click()\n            actual_result = driver.find_element_by_xpath('//android.widget.TextView[starts-with(@text,\"你好\")]').text\n        with allure.step('3、验证是否登陆成功'):\n>           assert actual_result == '你好 lll'\nE           AssertionError: assert '你好 stp curry' == '你好 lll'\nE             - 你好 lll\nE             + 你好 stp curry\n\ntest_cases\\test_italki_login\\test_account_operation.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "android_setting_dict",
+    "time" : {
+      "start" : 1614609496529,
+      "stop" : 1614609496529,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "tear_down",
+    "time" : {
+      "start" : 1614609513284,
+      "stop" : 1614609513285,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1614609496530,
+      "stop" : 1614609513284,
+      "duration" : 16754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '你好 stp curry' == '你好 lll'\n  - 你好 lll\n  + 你好 stp curry",
+    "statusTrace" : "self = <test_cases.test_italki_login.test_account_operation.TestAdd object at 0x000001E3C342CA00>\nset_up = <appium.webdriver.webdriver.WebDriver (session=\"1d4c8de0-d375-4797-9002-366889afb1c5\")>\ntear_down = <appium.webdriver.webdriver.WebDriver (session=\"1d4c8de0-d375-4797-9002-366889afb1c5\")>\n\n    @allure.story('登陆操作')\n    @allure.title('[case01] 验证app能否正常登录')\n    def test_login(self, set_up, tear_down):\n        with allure.step('1、启动italki'):\n            driver = set_up  # 使用了当前目录下的conftest文件里的fixture\n            driver.implicitly_wait(5)\n        with allure.step('2、登陆操作'):\n            driver.find_element_by_xpath(\n                '//android.widget.TextView[@resource-id=\"com.italki.app:id/tv_have_account\"]').click()\n            driver.find_element_by_xpath('//android.widget.LinearLayout[@content-desc=\"电子邮箱\"]').click()\n            driver.find_element_by_xpath(\n                '//android.widget.EditText[@resource-id=\"com.italki.app:id/et_email\"]').send_keys('18217116148@126.com')\n            # driver.find_element_by_xpath('//android.widget.EditText[@resource-id=\"com.italki.app:id/et_email\"]').send_keys(params_setting_list[0])\n            driver.find_element_by_xpath(\n                '//android.widget.EditText[@resource-id=\"com.italki.app:id/et_pwd\"]').send_keys('123456')\n            driver.find_element_by_xpath('//android.widget.Button[@resource-id=\"com.italki.app:id/btn_submit\"]').click()\n            actual_result = driver.find_element_by_xpath('//android.widget.TextView[starts-with(@text,\"你好\")]').text\n        with allure.step('3、验证是否登陆成功'):\n>           assert actual_result == '你好 lll'\nE           AssertionError: assert '你好 stp curry' == '你好 lll'\nE             - 你好 lll\nE             + 你好 stp curry\n\ntest_cases\\test_italki_login\\test_account_operation.py:26: AssertionError",
+    "steps" : [ {
+      "name" : "1、启动italki",
+      "time" : {
+        "start" : 1614609513326,
+        "stop" : 1614609513338,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "2、登陆操作",
+      "time" : {
+        "start" : 1614609513338,
+        "stop" : 1614609521671,
+        "duration" : 8333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "3、验证是否登陆成功",
+      "time" : {
+        "start" : 1614609521671,
+        "stop" : 1614609521674,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '你好 stp curry' == '你好 lll'\n  - 你好 lll\n  + 你好 stp curry\n",
+      "statusTrace" : "  File \"C:\\Users\\stacy\\PycharmProjects\\App_Linar_Test\\test_cases\\test_italki_login\\test_account_operation.py\", line 26, in test_login\n    assert actual_result == '你好 lll'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "tear_down::0",
+    "time" : {
+      "start" : 1614609522002,
+      "stop" : 1614609525311,
+      "duration" : 3309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "italki V3.29 stage"
+  }, {
+    "name" : "story",
+    "value" : "登陆操作"
+  }, {
+    "name" : "epic",
+    "value" : "italki安卓版"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_italki_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_operation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2BN94328"
+  }, {
+    "name" : "thread",
+    "value" : "3732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_italki_login.test_account_operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a09087d2f526c93a.json",
+  "parameterValues" : [ ]
+}

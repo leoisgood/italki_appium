@@ -1,0 +1,22 @@
+{
+  "f279da8e3968f295c69b4317306fae13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5165d2e2e41b9c9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.italki.app' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\stacy\\\\AppData\\\\Local\\\\Android\\\\android-sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 127.0.0.1\\:62001 shell am start -W -n com.italki.app/com.italki.app.onboarding.welcome.GetStartedActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability",
+      "time" : {
+        "start" : 1614608876638,
+        "stop" : 1614608876638,
+        "duration" : 0
+      }
+    } ]
+  }
+}

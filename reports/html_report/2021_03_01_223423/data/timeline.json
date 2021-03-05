@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-2BN94328",
+    "children" : [ {
+      "name" : "10484-MainThread",
+      "children" : [ {
+        "name" : "[case01] 验证app能否正常登录",
+        "uid" : "b609117a00a7fc7a",
+        "parentUid" : "85b8dfa4cdbc9bb55e04188eeac06611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614609279436,
+          "stop" : 1614609289975,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[case02] 验证app能否正常登出",
+        "uid" : "8cd554ba1031b994",
+        "parentUid" : "85b8dfa4cdbc9bb55e04188eeac06611",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614609309660,
+          "stop" : 1614609324631,
+          "duration" : 14971
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85b8dfa4cdbc9bb55e04188eeac06611"
+    } ],
+    "uid" : "86b0590d260ab753d4f7092c2f128320"
+  } ]
+}

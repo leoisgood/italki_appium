@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '你好 stp curry' == '你好 lll'\n  - 你好 lll\n  + 你好 stp curry",
+      "children" : [ {
+        "name" : "[case01] 验证app能否正常登录",
+        "uid" : "a09087d2f526c93a",
+        "parentUid" : "82de76656a8019c3ee3b26e4f3b8fde7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614609513326,
+          "stop" : 1614609521676,
+          "duration" : 8350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82de76656a8019c3ee3b26e4f3b8fde7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "c58536b11a8cea70d8136dbae6985d17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8cd554ba1031b994",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1614609309660,
+        "stop" : 1614609324631,
+        "duration" : 14971
+      }
+    } ]
+  },
+  "f279da8e3968f295c69b4317306fae13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b609117a00a7fc7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609279436,
+        "stop" : 1614609289975,
+        "duration" : 10539
+      }
+    } ]
+  }
+}
