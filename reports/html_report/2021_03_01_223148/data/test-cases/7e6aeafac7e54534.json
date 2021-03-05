@@ -1,0 +1,240 @@
+{
+  "uid" : "7e6aeafac7e54534",
+  "name" : "[case02] 验证app能否正常登出",
+  "fullName" : "test_cases.test_italki_login.test_account_operation.TestAdd#test_logout",
+  "historyId" : "c58536b11a8cea70d8136dbae6985d17",
+  "time" : {
+    "start" : 1614609153630,
+    "stop" : 1614609168153,
+    "duration" : 14523
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tear_down",
+    "time" : {
+      "start" : 1614609153628,
+      "stop" : 1614609153628,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1614609137914,
+      "stop" : 1614609153627,
+      "duration" : 15713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "android_setting_dict",
+    "time" : {
+      "start" : 1614609108808,
+      "stop" : 1614609108808,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、启动italki",
+      "time" : {
+        "start" : 1614609153630,
+        "stop" : 1614609153643,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2、登陆操作",
+      "time" : {
+        "start" : 1614609153643,
+        "stop" : 1614609162105,
+        "duration" : 8462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "3、点击我的页面",
+      "time" : {
+        "start" : 1614609162106,
+        "stop" : 1614609162313,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "4、点击设置",
+      "time" : {
+        "start" : 1614609162313,
+        "stop" : 1614609165351,
+        "duration" : 3038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "5、点击退出",
+      "time" : {
+        "start" : 1614609165351,
+        "stop" : 1614609166364,
+        "duration" : 1013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "6、验证是否登出成功",
+      "time" : {
+        "start" : 1614609166364,
+        "stop" : 1614609168153,
+        "duration" : 1789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "7、关闭italki",
+      "time" : {
+        "start" : 1614609168153,
+        "stop" : 1614609168153,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tear_down::0",
+    "time" : {
+      "start" : 1614609168154,
+      "stop" : 1614609171218,
+      "duration" : 3064
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "italki安卓版"
+  }, {
+    "name" : "feature",
+    "value" : "italki V3.29 stage"
+  }, {
+    "name" : "story",
+    "value" : "登出操作"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.test_italki_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_operation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2BN94328"
+  }, {
+    "name" : "thread",
+    "value" : "952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_italki_login.test_account_operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e6aeafac7e54534.json",
+  "parameterValues" : [ ]
+}

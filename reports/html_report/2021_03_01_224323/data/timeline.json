@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-2BN94328",
+    "children" : [ {
+      "name" : "12256-MainThread",
+      "children" : [ {
+        "name" : "[case01] 验证app能否正常登录登出",
+        "uid" : "c78d6011c915d298",
+        "parentUid" : "1ea0493eb195fe1be56be80fcfb1778d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614609822108,
+          "stop" : 1614609837880,
+          "duration" : 15772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ea0493eb195fe1be56be80fcfb1778d"
+    } ],
+    "uid" : "86b0590d260ab753d4f7092c2f128320"
+  } ]
+}

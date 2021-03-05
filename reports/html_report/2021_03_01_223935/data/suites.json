@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_cases.test_italki_login",
+    "children" : [ {
+      "name" : "test_account_operation",
+      "children" : [ {
+        "name" : "TestAdd",
+        "children" : [ {
+          "name" : "[case01] 验证app能否正常登录",
+          "uid" : "f7809f67dcc78be1",
+          "parentUid" : "89c33fe5fef3c7e558b7d5b7f4fe894b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614609592851,
+            "stop" : 1614609605496,
+            "duration" : 12645
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[case02] 验证app能否正常登出",
+          "uid" : "f0ff29da24389ba9",
+          "parentUid" : "89c33fe5fef3c7e558b7d5b7f4fe894b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1614609632728,
+            "stop" : 1614609638491,
+            "duration" : 5763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "89c33fe5fef3c7e558b7d5b7f4fe894b"
+      } ],
+      "uid" : "1cbcba4f692400aaeb9049b985d787fc"
+    } ],
+    "uid" : "7ba260796fa13f47e112dd83aaf70d8f"
+  } ]
+}

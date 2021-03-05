@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "italki安卓版",
+    "children" : [ {
+      "name" : "italki V3.29 stage",
+      "children" : [ {
+        "name" : "登陆操作",
+        "children" : [ {
+          "name" : "[case01] 验证app能否正常登录",
+          "uid" : "7407aab539608cd",
+          "parentUid" : "ca2d7b70a9e6ef368b94eeed548205f6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614609124592,
+            "stop" : 1614609134630,
+            "duration" : 10038
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca2d7b70a9e6ef368b94eeed548205f6"
+      }, {
+        "name" : "登出操作",
+        "children" : [ {
+          "name" : "[case02] 验证app能否正常登出",
+          "uid" : "7e6aeafac7e54534",
+          "parentUid" : "4e87be5c1923b8846efc77d3c991f5bb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614609153630,
+            "stop" : 1614609168153,
+            "duration" : 14523
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4e87be5c1923b8846efc77d3c991f5bb"
+      } ],
+      "uid" : "322ec6ec4081404897da1e4563ba1906"
+    } ],
+    "uid" : "5fbebcf89c13cbb67a6e9feb059e4a3d"
+  } ]
+}

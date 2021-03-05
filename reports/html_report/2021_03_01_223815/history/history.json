@@ -1,0 +1,41 @@
+{
+  "c58536b11a8cea70d8136dbae6985d17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1669bd1f108f43f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609541115,
+        "stop" : 1614609554305,
+        "duration" : 13190
+      }
+    } ]
+  },
+  "f279da8e3968f295c69b4317306fae13" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a09087d2f526c93a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '你好 stp curry' == '你好 lll'\n  - 你好 lll\n  + 你好 stp curry",
+      "time" : {
+        "start" : 1614609513326,
+        "stop" : 1614609521676,
+        "duration" : 8350
+      }
+    } ]
+  }
+}

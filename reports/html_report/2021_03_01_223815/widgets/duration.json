@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a09087d2f526c93a",
+  "name" : "[case01] 验证app能否正常登录",
+  "time" : {
+    "start" : 1614609513326,
+    "stop" : 1614609521676,
+    "duration" : 8350
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1669bd1f108f43f",
+  "name" : "[case02] 验证app能否正常登出",
+  "time" : {
+    "start" : 1614609541115,
+    "stop" : 1614609554305,
+    "duration" : 13190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

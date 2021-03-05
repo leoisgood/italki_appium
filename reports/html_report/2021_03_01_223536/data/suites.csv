@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Mar 01 22:36:16 CST 2021","Mon Mar 01 22:36:28 CST 2021","11457","test_cases.test_italki_login","test_account_operation","TestAdd","","","[case02] 验证app能否正常登出",""
+"broken","Mon Mar 01 22:35:53 CST 2021","Mon Mar 01 22:35:53 CST 2021","399","test_cases.test_italki_login","test_account_operation","TestAdd","","","[case01] 验证app能否正常登录",""
